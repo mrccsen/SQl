@@ -104,3 +104,30 @@ SQL for PATİKA
 --GROUP BY country_id 
 --ORDER BY COUNT(city) DESC
 --LIMIT 1;
+
+# PATİKA 8. HOMEWORK
+
+--CREATE TABLE employee(
+--	id INTEGER,
+--	name VARCHAR(50),
+--	birthday DATE,
+--	email VARCHAR(100)
+--);
+
+--insert into employee (id, name, birthday, email) 
+--values (1, 'Sarette Avramovsky', '2023-03-14', 'savramovsky0@studiopress.com');
+
+--UPDATE employee
+--SET name = 'Miraç',
+--	birthday = '2000-11-1',
+--	email = 'senmrcc@gmail.com'
+--WHERE id = 1 ;
+
+--UPDATE employee
+--SET name = 'Değiştirdim',
+--	birthday = '2000-11-1',
+--	email = 'değiştirim@ben.com'
+--WHERE id IN(50,49,48,47);
+
+--DELETE FROM employee
+--WHERE id IN(30,31,32,33,34,35);
