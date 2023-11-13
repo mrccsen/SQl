@@ -203,3 +203,33 @@ SQL for PATİKA
 --(	
 --	SELECT first_name FROM customer
 --);
+
+# PATİKA 12. HOMEWORK
+
+--SELECT title, length FROM film
+--WHERE length >
+--(
+--	SELECT SUM(length)/ COUNT(*) FROM film
+--);
+
+--SELECT COUNT(*) FROM film
+--WHERE rental_rate = 
+--(
+--SELECT MAX(rental_rate) FROM film
+--);
+
+--SELECT COUNT(*)
+--FROM film
+--WHERE (rental_rate, replacement_cost) = 
+--(
+-- SELECT MAX(rental_rate), MIN(replacement_cost)
+-- FROM film
+--);
+
+--SELECT DISTINCT first_name, last_name, customer.customer_id FROM customer
+--INNER JOIN payment ON payment.customer_id = customer.customer_id
+--WHERE payment.amount =
+--(
+--SELECT MAX(amount) FROM payment
+--)
+--ORDER BY customer_id DESC;
