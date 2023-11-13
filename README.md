@@ -142,3 +142,64 @@ SQL for PATİKA
 
 --SELECT rental_id, first_name, last_name FROM customer
 --INNER JOIN rental ON rental.customer_id = customer.customer_id;
+
+# PATİKA 10. HOMEWORK
+
+--SELECT city, country FROM city
+--LEFT JOIN country ON country.country_id = city.country_id;
+
+--SELECT DISTINCT  payment_id, first_name, last_name FROM customer
+--RIGHT JOIN payment ON payment.customer_id = customer.customer_id;
+
+--SELECT rental_id, first_name, last_name FROM customer
+--FULL JOIN rental ON rental.customer_id = customer.customer_id;
+
+# PATİKA 11. HOMEWORK
+
+--(
+--	SELECT first_name FROM actor
+--)
+--UNION ALL
+--(
+--	SELECT first_name FROM customer
+--);
+
+--(
+--	SELECT first_name FROM customer
+--)
+--INTERSECT
+--(
+--	SELECT first_name FROM actor
+--);
+
+--(
+--	SELECT first_name FROM actor
+--)
+--EXCEPT
+--(
+--	SELECT first_name FROM customer
+--);
+
+--(
+--	SELECT first_name FROM actor
+--)
+--UNION ALL
+--(
+--	SELECT first_name FROM customer
+--);
+
+--(
+--	SELECT first_name FROM actor
+--)
+--INTERSECT ALL
+--(
+--	SELECT first_name FROM customer
+--);
+
+--(
+--	SELECT first_name FROM actor
+--)
+--EXCEPT ALL
+--(	
+--	SELECT first_name FROM customer
+--);
