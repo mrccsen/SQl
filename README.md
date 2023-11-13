@@ -131,3 +131,14 @@ SQL for PATİKA
 
 --DELETE FROM employee
 --WHERE id IN(30,31,32,33,34,35);
+
+# PATİKA 9. HOMEWORK
+
+--SELECT city, country FROM city
+--INNER JOIN country ON city.country_id = country.country_id;
+
+--SELECT DISTINCT payment_id, first_name, last_name FROM customer
+--INNER JOIN payment ON payment.customer_id = customer.customer_id;
+
+--SELECT rental_id, first_name, last_name FROM customer
+--INNER JOIN rental ON rental.customer_id = customer.customer_id;
